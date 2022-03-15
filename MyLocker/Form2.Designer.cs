@@ -31,12 +31,12 @@ namespace MyLocker
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.myGroupBox1 = new MyLocker.MyGroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.myTextBox1 = new MyLocker.MyTextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.myGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,11 +59,25 @@ namespace MyLocker
             this.myGroupBox1.TabIndex = 0;
             this.myGroupBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Gray;
+            this.label2.Location = new System.Drawing.Point(419, 564);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(132, 61);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "CPF";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // myTextBox1
             // 
             this.myTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.myTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myTextBox1.Font = new System.Drawing.Font("Roboto", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.myTextBox1.Location = new System.Drawing.Point(430, 556);
             this.myTextBox1.Name = "myTextBox1";
             this.myTextBox1.Size = new System.Drawing.Size(627, 71);
@@ -83,11 +97,11 @@ namespace MyLocker
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(519, 356);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(453, 81);
+            this.label1.Size = new System.Drawing.Size(452, 76);
             this.label1.TabIndex = 3;
             this.label1.Text = "Iniciar Sessão";
             // 
@@ -110,19 +124,6 @@ namespace MyLocker
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Roboto", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(419, 564);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 63);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "CPF";
             // 
             // Form2
             // 
